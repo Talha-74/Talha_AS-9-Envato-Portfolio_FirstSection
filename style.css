@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.head1 {
+    display: inline-block;
+    width: 100vw;
+    background: #262626;
+    ;
+    font-size: 24px;
+    height: 54px;
+    line-height: 54px;
+    /* margin-top: 1px; */
+    /* position: absolute; */
+}
+
+.logo a img {
+    display: inline-block;
+    top: 58px;
+    height: 18px;
+    width: 152px;
+    text-indent: -9999px;
+    margin-left: 22px;
+}
+
+.buynow {
+
+    float: right;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: relative;
+    margin-top: -68px;
+}
+
+.buynow a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    box-shadow: 0 2px 0 #6f9a37;
+
+    background-color: #82b440;
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.head2 {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 15px 0;
+    z-index: 999;
+}
+
+.head2 a img {
+    vertical-align: middle;
+    margin-left: 55px;
+    max-width: 100%;
+    width: 91px;
+    height: 30px;
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: 50px;
+    list-style: none;
+    vertical-align: baseline;
+    white-space: normal;
+    color: #424242;
+    font: 15px open sans,arial,sans-serif;
+    margin-block-start: .8em;
+    cursor: pointer;
+
+}
+ul li {
+    margin-left: 45px;
+    color: #060606;
+    text-transform: uppercase;
+    font-size: 1em;
+    opacity: .7;
+}
+ul li:first-child {
+    opacity: 1;
+    color: purple;
+}
+ul li:last-child {
+    margin-right: 40px;
+}
+
+.main {
+    background: url(./hero.jpg);
+    width: 100vw;
+    height: 509px;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+
+
+}
+
+.main a img {
+    margin-top: 20px;
+    width: 70px;
+    height: 105px;
+}
+
+.main .corner {
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main .set {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 13px;
+    right: 8px;
+}
+
+.main .slide-in-top {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 2;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 410px;
+}
+
+.main .buttons {
+    display: inline;
+    position: absolute;
+    
+}
+
+.main .learnmore {
+    display: inline-block;
+    position: relative;
+    padding: 20px 46px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 240px;
+    margin-left: 450px;
+}
+
+.learnmore:hover {
+    background-color: #FFFAFA;
+    opacity: .2;
+    color: black;
+    
+}
+.spacer {
+    height: 50px;
+    margin: 0 0 -195px 0;
+    background: transparent;
+}
+
+.main .buy {
+    font-size: 100px;
+    display: inline-block;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 400;
+    position: relative;
+    margin-top: 240px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.main .buttons img {
+display: inline-block;
+margin-bottom: -7px;
+padding: 0;
+margin-left: -5px;
+}
